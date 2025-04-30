@@ -36,7 +36,7 @@ const Vpitable = () => {
   const hasFiltersRef = useRef(false);
   const filterSessionIdRef = useRef(null);
 
-  const pageSize = 6; // Set manually during development
+  const pageSize = 20; // Set manually during development
 
   const displayedColumns = [
     "FileName",
